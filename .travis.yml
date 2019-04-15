@@ -13,6 +13,4 @@ script:
 addons:
   sonarcloud:
     organization: "nicksont-github"
-    token:
-      secure: SONAR_TOKEN
 
