@@ -2,27 +2,28 @@
 Mediapedia is written in React and packaged by Electron. Main purpose of this was to learn more about front-end
 design and development and the technologies used.
 
-#Installation
-Use NPM
+## Installation
+Use NPM to install the pre-required prackages.
 ```
 npm install 
 ```
 
-#Usage
+## Usage
+To start the application, run:
 ```$xslt
 npm start
 ```
 
-#Packaging and release
+## Packaging and release
 To package and generate the electron app artifacts, use the following npm command
 ```$xslt
 npm run release
 ```
 This will make use of Electron Builder.
 
-# Testing
+## Testing
 This application makes use of [Jest](https://jestjs.io/) as it's test runner.
 To run the tests, run the following command
 ```$xslt
-npm rur test
+npm run test
 ```
