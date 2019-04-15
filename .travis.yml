@@ -9,6 +9,7 @@ script:
   - npm test
   - npm run build
   - npx semantic-release
+  -  sonar-scanner
 addons:
   sonarcloud:
     organization: "nicksont-github"
